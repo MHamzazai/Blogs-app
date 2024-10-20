@@ -23,13 +23,13 @@ export default function Header() {
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-4 flex items-center space-x-8 lg:space-x-16">
-                                <Link href={"#"} className="text-white hover:bg-white
+                                <Link href={"https://github.com/mhamzazai/"} className="text-white hover:bg-white
                               hover:text-black transition-all rounded-sm
                                 md:rounded-none md:hover:scale-110 md:hover:underline
                               md:hover:bg-black md:hover:text-white md:text-xl lg:hover:text-2xl lg:hover:font-thin">
                                     Go To GitHub
                                 </Link>
-                                <Link href={"#"} className="text-white hover:bg-white
+                                <Link href={"https://www.npmjs.com/~mhamzazai"} className="text-white hover:bg-white
                                  hover:text-black transition-all rounded-sm
                                 md:rounded-none md:hover:scale-110 md:hover:underline
                               md:hover:bg-black md:hover:text-white md:text-xl lg:hover:text-2xl lg:hover:font-thin">
@@ -62,15 +62,15 @@ export default function Header() {
                 {isClick && (
                     <div className="md:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-3 sm:px-4 flex flex-col text-center bg-slate-950">
-                            <Link href="/" className="text-white hover:bg-white hover:text-black
+                            <Link href="https://github.com/mhamzazai/" className="text-white hover:bg-white hover:text-black
                                rounded-sm hover:scale-95 transition-all text-xl font-semibold font-sans border bg-black">
                                 Go To GitHub
                             </Link>
-                            <Link href="/" className="text-white hover:bg-white hover:text-black
+                            <Link href="https://www.npmjs.com/~mhamzazai" className="text-white hover:bg-white hover:text-black
                                 rounded-sm text-xl hover:scale-95 transition-all font-semibold font-sans border bg-black">
                                 Go To Npm
                             </Link>
-                            <Link href="/" className="text-white hover:bg-white hover:text-black
+                            <Link href="/About" className="text-white hover:bg-white hover:text-black
                                 rounded-sm text-xl hover:scale-95 transition-all font-semibold font-sans border bg-black">
                                 About MySelf
                             </Link>
