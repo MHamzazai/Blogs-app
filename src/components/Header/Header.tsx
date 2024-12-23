@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import 'remixicon/fonts/remixicon.css'
 import Image from "next/image";
 import Link from "next/link";
 
